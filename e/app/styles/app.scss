@@ -1,0 +1,50 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+#title,
+#body {
+  display: block;
+  width: 99%;
+}
+
+header {
+  text-align: center;
+  padding: 50px;
+  background-image: url('../images/blog_background.png');
+  border-radius: 10px;
+  margin-bottom: 10px;
+  h1{
+    font-size: 60px;
+    color: white;
+  }
+}
+
+.view-title {
+  font-size: 24px;
+}
+.post-view,
+.post-edit {
+  border: 2px solid black;
+  padding: 0 20px;
+  height: 600px;
+  font-size: 18px;
+}
+
+.btn-danger {
+  float: right;
+}
